@@ -1,0 +1,173 @@
+body,h2{
+    margin:0;
+    font-family: serif;
+}
+.landing
+{
+   background-image: url('../media/pink ice.jpg');
+   background-size: cover;
+   background-position: center;
+   height: 130vh;
+  
+}
+header a{
+    text-decoration: sandybrown;
+    color: rgba(0, 174, 255, 0.978);
+    background: linear-gradient(to right,aliceblue,pink);
+    
+    
+    
+   
+    padding: 1em;
+    font-weight: bold;
+}
+header nav a{
+    font-size: 1.3em;
+    text-align: center;
+    padding: 2em;
+    font-weight: bolder;
+    background: linear-gradient(to right,aliceblue,pink);
+    
+    
+}
+header{
+    display:flex;
+    
+}
+#logo{
+    flex:3;
+    font:bolder;
+    font-size: 2.5em;
+}
+nav{
+    flex: 2;
+    display: flex;
+}
+nav a{
+    flex: 1;
+}
+nav a:hover{
+    color: bisque;
+}
+.maintext
+{
+display: flex;
+flex-direction: column;
+height: 40vh;
+justify-content: center;
+padding: 2em;
+}
+.tagline1{
+    outline-color: rgb(238, 180, 31);
+    color: rgb(19, 68, 28);
+    
+    
+ 
+    font-size: 9em;
+    font-synthesis-weight: 14em;
+    font-weight: bolder;
+   
+   
+}
+.tagline2{
+    color: rgb(13, 44, 170);
+    
+}
+.maintext div{
+    font-size: 5dvh;
+  
+    
+}
+    
+.maintext button{
+    width:20vw;
+    margin-top: 2em;
+    border-radius:10px;
+    padding:.7em;
+    background-color: rgba(152, 0, 0, 0.777);
+    color:white;
+    border: 1px solid var(--green);
+}
+.maintext button:hover{
+    color:rgb(207, 253, 41);
+}
+.menu{
+
+  display:grid;
+  grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+  background: linear-gradient(to right,rgb(236, 92, 224),rgb(201, 14, 14));
+  color: white;
+ 
+}
+#menuheading{
+    
+    
+    font-size: 2.4em;
+    color:black;
+    display: flex;
+    background: linear-gradient(to right,rgb(236, 92, 224),rgb(201, 14, 14));
+    justify-content: center;
+}
+.menu th{
+    font-size: 1.8em;
+    color: rgb(45, 255, 185);
+}
+table{
+    width: 100%; 
+    padding: 1.8em;
+   
+}
+.menu tr{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.8em;
+
+}
+.menu td:nth-child(1){
+    flex:1;
+    justify-self: left;
+}
+.menu td:nth-child(2){
+    
+    justify-self: right;
+}
+.location{
+    display:flex;
+    
+
+    background: linear-gradient(to right,rgb(236, 92, 224),rgb(201, 14, 14));
+   
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+    
+    color: white;
+    flex-wrap: wrap;
+    
+  }
+  .location h2{
+    color: rgb(53, 248, 199);
+
+  }
+  .location div{
+    flex:1;
+    padding: 2em;
+    min-width: 220px;
+  }
+  .location address{
+    margin-top: 1em;
+  }
+  #loheading{
+    font-size: 2.4em;
+    color: black;
+    display: flex;
+    
+    background: linear-gradient(to right,rgb(236, 92, 224),rgb(201, 14, 14));
+    justify-content: center;
+   
+
+  }
+  footer{
+    background-color: rgb(23, 7, 37);
+    color: aliceblue;
+    padding: .25em 1em;
+
+  }
